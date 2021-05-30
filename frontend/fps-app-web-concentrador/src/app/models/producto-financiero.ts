@@ -1,0 +1,31 @@
+export class ProductoFinanciero {
+    consultaEntidadProductoId: number;
+    entidadProductoId: number;
+    pocentajeTea: number;
+    porcentajeComision: number;
+    porcentajeSeguro: number;
+    plazoMinimoMes: number;
+    plazoMaximoMes: number;
+    descripcion: string;
+    mensajeOpcional: string;
+    detalleProducto: string;
+    resumenProducto: string;
+    plazoMinimoDia: number;
+    plazoMaximoDia: number;
+    tieneFondoSeguro: boolean;
+    nombreEntidadFinanciera: string;
+    imagenEntidadFinanciera: string;
+    tipoInstitucionId: number;
+    departamentoId: number;
+    codigoProductoFinanciero: string;
+    nombreProductoFinanciero: string;
+    descripcionProductoFinanciero: string;
+    detalleEntidadProductoId: number;
+    tipoMonedaId: number;
+    tipoMoneda: string;
+    ingresoPermitido: number;
+    montoMinimoAceptable: number;
+    montoMaximoAceptable: number;
+    montoMinimoDeposito: number;
+    montoMaximoDeposito: number;
+}
